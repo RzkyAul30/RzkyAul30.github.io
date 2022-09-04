@@ -1,0 +1,27 @@
+/* Untuk tablets */
+@media all and (max-width: 1000px) {
+  .image1 img {
+    margin-top: 200px;
+  }
+  .jumbotron {
+    margin-bottom: 30px;
+  }
+  #project .container .col {
+    margin-bottom: 30px;
+  }
+}
+
+/* Untuk HP */
+@media all and (max-width: 670px) {
+  .image1 img {
+    margin-top: 100px;
+  }
+
+  .jumbotron .container {
+    text-align: center;
+  }
+
+  .jumbotron .container p {
+    margin-top: 20px;
+  }
+}
